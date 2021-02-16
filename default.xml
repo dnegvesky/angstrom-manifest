@@ -6,10 +6,10 @@
   <remote fetch="http://git.shr-project.org" name="shr"/>
   <remote fetch="http://git.yoctoproject.org/git" name="yocto"/>
   
-  <default revision="zeus" sync-j="16"/>
+  <default revision="dunfell" sync-j="16"/>
   
   <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
-  <project name="Angstrom-distribution/meta-angstrom" path="layers/meta-angstrom" remote="github" revision="angstrom-v2019.12-zeus">
+  <project name="dnegvesky/meta-angstrom" path="layers/meta-angstrom" remote="github" revision="angstrom-v2020.06-dunfell">
     <copyfile dest="setup-environment" src="setup-environment-internal"/>
   </project>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="layers/meta-rtlwifi" remote="github" revision="174c9bacc4af9873bfbecf618e331c6d464540bf"/>
@@ -40,7 +40,7 @@
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="meta-xilinx" path="layers/meta-xilinx" remote="yocto" revision="f3c8b1c9a8ae6a1690f7f5d907b65c588f65446a"/>
   <project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github"/>
-  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.44"/>
+  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.46"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
   <project name="shr-distribution/meta-smartphone" path="layers/meta-smartphone" remote="github"/>
